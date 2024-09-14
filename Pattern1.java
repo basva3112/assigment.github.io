@@ -3,9 +3,9 @@ import java.util.Scanner;
 class Pattern1
 {
 
-	void Display()
+	void Display(int n)
 	{
-		for(int i=1; i<=4; i++)
+		for(int i=1; i<=n; i++)
 		{
 			for(int j=1; j<=i; j++)
 			{
@@ -17,7 +17,7 @@ class Pattern1
 	public static void main(String args[])
 	{
 		Pattern1 obj = new Pattern1();
-		obj.Display();
+		obj.Display(4);
 		
 	}
 }
